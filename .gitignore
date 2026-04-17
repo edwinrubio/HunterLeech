@@ -1,0 +1,35 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ETL runtime state
+.etl_state/
+
+# Frontend build & deps
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Neo4j data (bind-mounted, ~9GB)
+data/
+
+# Neo4j runtime plugins (downloaded separately)
+infra/neo4j/plugins/*.jar
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

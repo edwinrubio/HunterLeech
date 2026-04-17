@@ -1,0 +1,14 @@
+fastapi[standard]==0.135.3
+uvicorn[standard]
+neo4j==6.1.0
+polars==1.39.3
+httpx
+apscheduler
+pydantic-settings
+tenacity
+slowapi==0.1.9
+
+# Dev/test
+pytest
+pytest-asyncio
+respx
