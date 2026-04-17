@@ -59,7 +59,7 @@ La forma mas sencilla. Un solo comando levanta todo y carga los datos automatica
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/your-user/HunterLeech.git
+git clone https://github.com/edwinrubio/HunterLeech.git
 cd HunterLeech
 
 # 2. Configurar variables de entorno
@@ -94,7 +94,7 @@ Para mayor control sobre cada fuente de datos.
 
 ```bash
 # 1. Clonar y configurar
-git clone https://github.com/your-user/HunterLeech.git
+git clone https://github.com/edwinrubio/HunterLeech.git
 cd HunterLeech
 cp .env.example .env
 # Editar NEO4J_PASSWORD en .env
