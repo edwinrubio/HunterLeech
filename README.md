@@ -361,9 +361,10 @@ Encuentra la conexion mas corta entre dos entidades en el grafo (hasta 6 saltos)
 
 | Origen | Destino | Que muestra |
 |--------|---------|-------------|
-| `6793361` (Elber Guerra) | `892399999` (Gob. Cesar) | Persona sancionada → gobernacion via contrato |
-| `254000001` (Gob. N. Santander) | `254099011` (Alc. Bochalema) | Entidades conectadas via persona sancionada |
-| `900062917` (Servicios Postales) | `116001000` (Policia Nacional) | Empresa con concentracion directa |
+| `892399999` | `254000001` | Dos entidades publicas conectadas via contratista comun |
+| `900062917` | `116001000` | Empresa con concentracion directa conectada a entidad publica |
+
+Ingresa cualquier NIT o cedula en los campos de busqueda para descubrir conexiones.
 
 ---
 
